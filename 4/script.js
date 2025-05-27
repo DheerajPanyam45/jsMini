@@ -1,11 +1,21 @@
 let secondsElapsed = 0;
-let setInterval = null;
+let interval = null;
 const time = document.getElementById("time");
 
 
 
+function setTime() {
+	// body...
+
+	time.innerHTML = secondsElapsed;
+}
+function timer()
+{
+	secondsElapsed++;
+	setTime();
+}
 function startClock(){
-    
+    interval = setInterval(timer,1000);
 
 }
 
