@@ -31,3 +31,35 @@ span {
 #yellow {
   background: yellow;
 }
+
+#submit {
+  padding: 12px 24px;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  background-color: beige;
+  border-radius: 8px;
+  color: rgb(244, 0, 0);
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 8px rgb(0, 0, 0);
+}
+
+/* #submit:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+} */
+
+#guide {
+  font-size: 14px;
+  color: #777;
+  margin-top: 8px;
+  text-align: center;
+  font-style: italic;
+  letter-spacing: 0.5px;
+  transition: color 0.3s ease;
+}
+
+#guide:hover {
+  color: #555;
+}
